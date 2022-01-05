@@ -6,8 +6,39 @@ html {
 
 
 body {
-    margin: 3% 0%;
+    margin: 0% 0% 3%;
 }
+
+
+
+.menu {
+    text-align: left;
+    background-color: rgb(19, 20, 24);
+}
+
+
+.button {
+    display: inline-block;
+    padding: 6px;
+    color: white;
+    background: radial-gradient(rgba(128, 128, 128, 0), rgb(19, 20, 24));
+}
+
+.button:hover {
+    background-color: #36383f;
+    cursor: pointer;
+}
+
+#active {
+	background-color: rgb(255, 145, 0);
+	pointer-events: none;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+
 
 h1 {
     width: 350px;
