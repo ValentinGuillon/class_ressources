@@ -56,6 +56,14 @@ nav a {
     padding: 10px 0px;
 }
 
+nav .locked a {
+    display: block;
+    text-decoration: none;
+    color: #484848;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
 nav a:hover {
     color: rgb(226, 155, 22);
     border-bottom: 2px solid rgb(255, 217, 0);
