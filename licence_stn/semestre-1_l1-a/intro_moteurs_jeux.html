@@ -10,11 +10,27 @@
 
 
 	<body>
-        <div class="menu">
-            <div class="button"><a class="button" href="../../index.html">Home</a></div>
-            <div class="button"><a class="button" id="active" href="" title="Introduction aux Moteurs de Jeux" >IaMdJ</a></div>
-            <div class="button"><a class="button" href="programmation_fonctionnelle.html" title="Programmation Fonctionnelle">PF</a></div>
-        </div>
+        <nav>
+            <ul>
+                <li class="déroulant"><a href="../../index.html">Home</a></li>
+                <li class="deroulant"><a id="actif" href="#" title="L1-A">Semestre 1</a>
+                    <ul class="sous">
+                        <li><a id="actif" href="#" title="Introduction aux Moteurs de Jeux" >IaMdJ</a></li>
+                        <li><a href="programmation_fonctionnelle.html" title="Programmation Fonctionnelle">PF</a></li>
+                    </ul>
+                </li>
+                <li class="locked"><a href="#" title="locked">Semestre 2</a>
+                </li>
+                <li class="locked"><a href="#" title="locked">Semestre 3</a>
+                </li>
+                <li class="locked"><a href="#" title="locked">Semestre 4</a>
+                </li>
+                <li class="locked"><a href="#" title="locked">Semestre 5</a>
+                </li>
+                <li class="locked"><a href="#" title="locked">Semestre 6</a>
+                </li>
+            </ul>
+        </nav>
 
 
         <h1>Introductions aux Moteurs de Jeux<br>Godot Engine<br>Visual Script</h1>
